@@ -1,0 +1,105 @@
+.popup {
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+
+
+.popup_hide {
+  -webkit-animation: hide_popup 0.2s ease both;
+  -o-animation: hide_popup 0.2s ease both;
+  animation: hide_popup 0.2s ease both;
+}
+
+.popup_show {
+  -webkit-animation: show_popup 0.2s ease backwards;
+  -o-animation: show_popup 0.2s ease backwards;
+  animation: show_popup 0.2s ease backwards;
+}
+
+
+
+@-webkit-keyframes show_popup {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes show_popup {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes show_popup {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes show_popup {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+@-webkit-keyframes hide_popup {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+@-o-keyframes hide_popup {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+@-moz-keyframes hide_popup {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+@keyframes hide_popup {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+

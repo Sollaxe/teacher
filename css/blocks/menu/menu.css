@@ -1,0 +1,142 @@
+.menu {
+  position: relative;
+}
+
+.menu_theme_softdark {
+  color: #fff;
+}
+
+.menu_theme_softdark .menu__title {
+  color: #497771;
+  border-color: #497771;
+}
+
+.menu_size_m {
+  flex: 360px;
+  max-width: 360px;
+}
+
+.menu_size_m .menu__item {
+  margin: 4px 0;
+  font-size: 2em;
+}
+
+.menu_size_m .menu__title {
+  margin-bottom: 20px;
+  margin-top: -16px;
+  font-size: 3em;
+}
+
+.menu__item {
+  font-family: 'sans_light', sans-serif;
+}
+
+.menu__title {
+  font-family: 'quicksand_regular', sans-serif;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  position: relative;
+  z-index: 2;
+}
+
+.menu__item > .link {
+  text-align: center;
+}
+
+.menu__item,
+.menu__title {
+  display: flex;
+  justify-content: center;
+}
+
+.menu__exit {
+  z-index: 5;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+}
+
+
+
+
+.menu__popup {
+  background-color: rgba(0,0,0, 0.8);
+}
+
+.menu__item {
+  transform: translateZ(0) translateY(-70px);
+  opacity: 0;
+}
+
+
+
+
+.popup_show .menu__item_show {
+  -webkit-animation: show_menu-item 0.2s ease both;
+  -o-animation: show_menu-item 0.2s ease both;
+  animation: show_menu-item 0.2s ease both;
+}
+
+.menu__item .link {
+  transition: color .15s;
+}
+
+.menu__item .link:hover {
+  color: #497771;
+}
+
+
+
+@-webkit-keyframes show_menu-item {
+  0% {
+    transform: translateZ(0) translateY(-70px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+@-o-keyframes show_menu-item {
+  0% {
+    transform: translateZ(0) translateY(-70px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+@-moz-keyframes show_menu-item {
+  0% {
+    transform: translateZ(0) translateY(-70px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes show_menu-item {
+  0% {
+    transform: translateZ(0) translateY(-70px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .menu__exit {
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    right: 5px;
+  }
+}

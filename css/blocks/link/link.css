@@ -1,0 +1,28 @@
+.link {
+
+}
+
+.link_dis_block {
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+
+.link_dis_inl-block {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+.link_undecorate {
+  text-decoration: none;
+}
+
+.link_theme_inherit {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.link_hv_underline:hover {
+  text-decoration: underline;
+}

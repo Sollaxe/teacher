@@ -1,0 +1,80 @@
+.file-section {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.file-section_theme_ocean {
+  background-color: #576799; /*f*/
+  color: #fff;
+}
+
+.file-section_theme_softblue {
+  background-color: #60b7ab;
+  color: #fff; 
+}
+
+.file-section__inner-container {
+  position: relative;
+}
+
+.file-section__section-name {
+  position: absolute;
+  top: 0;
+  right: -420px;
+}
+
+
+.file-section__search-block {
+  margin-bottom: 30px;
+}
+
+.file-section__file-block {
+  min-height: 520px;
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+}
+
+.file-section[data-admin="true"] .file-section__file-block {
+  min-height: 0;
+}
+
+.file-section__file {
+  margin: 0px 8px 8px 0;
+}
+
+.file-section__but-block {
+  margin-top: 24px;
+}
+
+
+.file-section__pagination {
+  margin-top: 50px;
+}
+
+
+@media screen and (max-width: 1240px) {
+  .file-section__section-name {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-bottom: 30px;
+  }
+
+  .file-section__file-block {
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 1180px) {
+  .file-section__file-goriz-block {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .file-section__file {
+    margin-right: 0;
+  }
+}

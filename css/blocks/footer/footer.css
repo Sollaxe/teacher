@@ -1,0 +1,24 @@
+.footer {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.footer_theme_darkblue {
+  background-color: #252a37;
+  color: #fff;
+}
+
+.footer__inner-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.footer__right-col {
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer__text {
+  margin: 5px 0;
+}

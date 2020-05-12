@@ -1,0 +1,25 @@
+.text-redactor__edit-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  transition: .2s opacity;
+}
+
+.note__body .text-redactor__edit-icon {
+  top: 10px;
+  right: 10px;
+}
+
+.text-redactor__parent:hover > .text-redactor__edit-icon  {
+  opacity: 1;
+}
+
+.text-redactor__icons-block {
+  display: flex;
+  margin: 5px 0;
+}
+
+.text-redactor__icons-block > * {
+  margin: 0 4px;
+}

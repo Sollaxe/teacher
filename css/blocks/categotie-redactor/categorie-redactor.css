@@ -1,0 +1,139 @@
+.cat-redactor {
+
+}
+
+.cat-redactor_size_m {
+  flex: 1 500px;
+  max-width: 500px;
+  height: 570px;
+}
+
+.cat-redactor_size_m .cat-redactor__title,
+.cat-redactor_size_m .cat-redactor__add-block,
+.cat-redactor_size_m .cat-redactor__list-item {
+  padding: 0 20px;
+}
+
+.cat-redactor_theme_softgreen {
+  background-color: #fff;
+}
+
+.cat-redactor__title {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.cat-redactor_size_m .cat-redactor__title {
+  height: 70px;
+}
+
+.cat-redactor_theme_softgreen .cat-redactor__title {
+  background-color: #2d7c71;
+  color: #fff;
+}
+
+.cat-redactor__exit {
+  cursor: pointer;
+  position: absolute;
+  z-index: 5;
+}
+
+.cat-redactor_size_m .cat-redactor__exit {
+  top: 15px;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+}
+
+
+.cat-redactor__add-block {
+  display: flex;
+  align-items: center;
+}
+
+.cat-redactor_size_m .cat-redactor__add-block {
+  height: 60px;
+}
+
+.cat-redactor_theme_softgreen .cat-redactor__add-block {
+  background-color: #4ba296;
+  color: #fff;
+}
+
+
+.cat-redactor__body {
+  overflow-y: auto;
+}
+
+.cat-redactor__body:hover {
+  overflow: auto;
+} 
+
+.cat-redactor__body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.cat-redactor__body::-webkit-scrollbar-track {
+  background: #d4d1d1;
+}
+
+.cat-redactor__body::-webkit-scrollbar-thumb {
+  background: #2d7c71;
+}
+
+.cat-redactor_size_m .cat-redactor__body {
+  height: 440px;
+}
+
+.cat-redactor__list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-style: solid;
+}
+
+.cat-redactor_size_m .cat-redactor__list-item {
+  min-height: 60px;
+  border-bottom-width: 2px;
+}
+
+.cat-redactor_theme_softgreen .cat-redactor__list-item {
+  border-color: #365a55;
+  color: #365a55;
+}
+
+
+.cat-redactor__item-editor {
+  display: flex;
+}
+
+.cat-redactor_size_m .cat-redactor__editor-icon {
+  margin-right: 10px;
+}
+
+.cat-redactor__editor-icon:nth-last-of-type(1) {
+  margin-right: 0;
+}
+
+.cat-redactor__popup {
+  background-color: rgba(0,0,0, 0.5);
+}
+
+.cat-redactor__icons-block {
+  display: flex;
+}
+
+.cat-redactor__icons-block > .icon {
+  margin-right: 5px;
+}
+
+.cat-redactor__icons-block > .icon:last-of-type {
+  margin-right: 0;
+}
+
+.cat-redactor__list-item > .text {
+  max-width: 350px;
+  min-width: 200px;
+  outline: none;
+}

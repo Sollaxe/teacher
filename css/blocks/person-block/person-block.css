@@ -1,0 +1,42 @@
+.person-block { 
+  position: relative;
+  height: 100vh;
+  /* max-height: 900px; */
+  background-size: cover;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.person-block::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: rgba(0,0,0, 0.6);
+}
+
+
+.person-block__container {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.person-block__content {
+  margin-bottom: 150px;
+}
+
+.person-block__blockquote {
+  display: flex;
+  justify-content: center;
+}
+
+.person-block__upload-photo-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}

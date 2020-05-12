@@ -1,0 +1,25 @@
+.add-file {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.add-file_size_m {
+  flex: 1 220px;
+  max-width: 220px;
+  height: 320px;
+}
+
+.add-file_theme_blue {
+  background-color: #3f518a;
+  transition: background-color .2s;
+}
+
+.add-file_theme_blue:hover {
+  background-color: #2b3863;
+}
+
+.add-file_size_m .add-file__add-icon {
+  width: 70px;
+}

@@ -1,0 +1,15 @@
+.img-list {
+
+}
+
+.img-list__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.img-list__dec-img {
+  max-height: 30px;
+  max-width: 30px;
+  margin-right: 10px; 
+}

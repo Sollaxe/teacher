@@ -1,0 +1,66 @@
+.photo-loader {
+  position: relative;
+}
+
+.photo-loader_size_m {
+  flex: 600px;
+  max-width: 600px;
+  min-height: 60px;
+  padding: 20px;
+}
+
+.photo-loader_theme_simple {
+  background-color: #576799;
+}
+
+.photo-loader__popup {
+  background-color: rgba(0,0,0, 0.5);
+  z-index: 2000;
+}
+
+.photo-loader__exit {
+  position: absolute;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.photo-loader_size_m .photo-loader__exit {
+  height: 25px;
+  width: 25px;
+  top: 10px;
+  right: 10px;
+}
+
+.photo-loader__upload-photo {
+  /*margin-bottom: 20px;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 40px;
+}
+
+.photo-loader__upload-photo-input {
+  display: none;
+}
+
+.photo-loader__image-block {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-loader__img-figure { 
+  display: none;
+}
+
+.photo-loader__upload-imagination {
+  max-width: 560px;
+  max-height: 500px;
+}
+
+.photo-loader__icons-block {
+  display: flex;
+}
+
+.photo-loader__icons-block > * {
+  margin: 0 4px;
+}

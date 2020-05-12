@@ -1,0 +1,99 @@
+.calendar {
+  flex: 1 390px;
+  max-width: 390px;
+  height: 360px;
+  background-color: #409085;
+  padding: 25px;
+  /*border: 2px solid #2f867a;*/
+}
+
+.calendar__table {
+  width: 100%;
+}
+
+.calendar__arrow {
+  font-family: 'quicksand_regular', sans-serif;
+  font-size: 1.1666666em;
+  margin: -5px 10px 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.calendar__month-select {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.calendar__month {
+  font-size: 1.25em;
+}
+
+.calendar__cell,
+.calendar__day {
+  text-align: center;
+}
+
+.calendar__day {
+  background-color: #327970;
+}
+
+.calendar__cell_note {
+  background-color: #2f867a;
+  cursor: pointer;
+}
+
+.calendar__cell_note:hover {
+  background-color: #327970;
+}
+
+.calendar__row {
+  height: 32px;
+}
+
+.calendar_admin {
+
+}
+
+.calendar_admin .calendar__cell {
+  cursor: pointer;
+}
+
+.calendar_admin .calendar__cell[data-date]:not(.calendar__cell_note):hover {
+  background-color: #23655c;
+  
+}
+
+
+@media screen and (max-width: 500px) {
+  .calendar__month {
+    font-size: 1.10em;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .calendar {
+    padding: 25px 10px;
+  }
+
+}
+
+@media screen and (max-width: 1101px) {
+  .calendar {
+    max-width: 500px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .calendar {
+    max-width: 500px;
+    margin-right: 0;
+  }
+}

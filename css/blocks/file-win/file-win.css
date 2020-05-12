@@ -1,0 +1,130 @@
+.file-win {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.file-win_theme_darkblue {
+  background-color: #353f5f;
+  color: #fff;
+}
+
+.file-win_theme_darkblue .file-win__tags,
+.file-win_theme_darkblue .file-win__info {
+  color: #cdd1e0;
+}
+
+.file-win_size_m {
+  flex: 1 740px;
+  max-width: 740px;
+}
+
+.file-win_size_m .file-win__image {
+  flex: 1 300px;
+  /*max-width: 300px;*/
+  width: 300px;
+  height: 300px;
+}
+
+.file-win_size_m .file-win__body {
+  max-width: 440px;
+  flex: 1 440px;
+  height: 300px;
+}
+
+.file-win_size_m .file-win__exit {
+  width: 20px;
+  height: 20px;
+}
+
+.file-win__popup {
+  background-color: rgba(0,0,0, 0.5);
+}
+
+.file-win__exit {
+  position: absolute;
+  z-index: 5;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+
+.file-win__image {
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.file-win__image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0, 0.2);
+  z-index: 2;
+}
+
+
+.file-win__body {
+  padding: 10px 15px;
+  position: relative;
+}
+
+.file-win__name-file {
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.file-win__info {
+  margin-bottom: 4px;
+}
+
+.file-win__file-size {
+  margin-right: 10px;
+}
+
+.file-win__tags {
+}
+
+.file-win__file-tag {
+  margin-right: 4px;
+}
+
+.file-win__file-desc {
+  padding: 5px 0 0 5px;
+}
+
+.file-win__file-desc-text {
+  line-height: 1.25em
+}
+
+.file-win__download-file {
+  position: absolute;
+  z-index: 2;
+  bottom: 10px;
+  left: 15px;
+}
+
+
+@media screen and (max-width: 740px) {
+  .file-win_size_m {
+    flex: 1 440px;
+    max-width: 440px;
+  }
+}
+
+
+@media screen and (max-height: 700px) and (max-width: 760px) {
+  .file-win__popup {
+    align-items: flex-start;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}

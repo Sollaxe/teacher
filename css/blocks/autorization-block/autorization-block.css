@@ -1,0 +1,41 @@
+.autorization-block {
+  flex: 1 590px;
+  max-width: 590px;
+  min-height: 500px;
+  margin-top: 200px;
+  background-color: #2d7c71;
+  color: #fff;
+  padding: 20px 45px 45px;
+}
+
+.autorization-block__title {
+  display: flex;
+  justify-content: center;
+}
+
+.autorization-block__field .text {
+  margin-top: 20px;
+}
+
+.autorization-block__field > * {
+  display: block;
+}
+
+.autorization-block__login,
+.autorization-block__pass {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: #60b7ab;
+  height: 60px;
+  margin-top: 4px;
+  color: #fff;
+  padding-left: 10px;
+  font-family: 'dosis_regular', sans-serif;
+}
+
+.autorization-block__submit-block {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}

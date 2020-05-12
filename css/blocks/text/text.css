@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'roboto_slab_light';
+    src: url('/fonts/Roboto_Slab/RobotoSlab-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'roboto_thin';
+    src: url('/fonts/Roboto_Mono/RobotoMono-Thin.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_light';
+    src: url('/fonts/Roboto_Mono/RobotoMono-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_regular';
+    src: url('/fonts/Roboto_Mono/RobotoMono-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_bold';
+    src: url('/fonts/Roboto_Mono/RobotoMono-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: 'sans_light';
+    src: url('/fonts/Source_Sans_Pro/SourceSansPro-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sans_regular';
+    src: url('/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sans_bold';
+    src: url('/fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'dosis_thin';
+    src: url('/fonts/Dosis/Dosis-ExtraLight.ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'dosis_light';
+    src: url('/fonts/Dosis/Dosis-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dosis_regular';
+    src: url('/fonts/Dosis/Dosis-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dosis_bold';
+    src: url('/fonts/Dosis/Dosis-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'quicksand_regular';
+    src: url('/fonts/Quicksand/Quicksand-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'quicksand_light';
+    src: url('/fonts/Quicksand/Quicksand-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+.text {
+  
+}
+
+
+.text_font_roboto-slab-light {
+  font-family: 'roboto_slab_light', serif;
+}
+
+
+
+.text_font_roboto-thin {
+  font-family: 'roboto_thin', monospace;
+}
+
+.text_font_roboto-light {
+  font-family: 'roboto_light', monospace;
+}
+
+.text_font_roboto-regular {
+  font-family: 'roboto_regular', monospace;
+}
+
+.text_font_roboto-bold {
+  font-family: 'roboto_bold', monospace;
+}
+
+
+
+
+
+.text_font_sans-light {
+  font-family: 'sans_light', sans-serif;
+}
+
+.text_font_sans-regular {
+  font-family: 'sans_regular', sans-serif;
+}
+
+.text_font_sans-bold {
+  font-family: 'sans_bold', sans-serif;
+}
+
+
+
+.text_font_dosis-thin {
+  font-family: 'dosis_thin', sans-serif;
+}
+
+.text_font_dosis-light {
+  font-family: 'dosis_light', sans-serif;
+}
+
+.text_font_dosis-regular {
+  font-family: 'dosis_regular', sans-serif;
+}
+
+.text_font_dosis-bold {
+  font-family: 'dosis_bold', sans-serif;
+}
+ 
+
+.text_font_quick-light {
+  font-family: 'quicksand_light', sans-serif;
+}
+
+
+
+
+.text_size_us {
+  font-size: 0.58em; /*14px*/
+}
+
+.text_size_xxs {
+  font-size: 0.66666666em; /*16px*/
+}
+
+.text_size_xs {
+  font-size: 0.75em; /*18px*/
+}
+
+
+.text_size_s {
+  font-size: 0.833333em; /*20px*/
+}
+
+.text_size_m {
+  font-size: 1em; /*24px*/
+}
+
+.text_size_l {
+  font-size: 1.08333em; /*26px*/
+}
+
+.text_size_xl {
+  font-size: 1.25em; /*30px*/
+}
+
+.text_size_xxl {
+  font-size: 1.5em /*36px*/
+}
+
+.text_size_ul {
+  font-size: 2em; /*48px*/
+}
+
+.text_size_xul {
+  font-size: 3em; /*72px*/
+}
+
+
+
+.text_color_white {
+  color: #fff;
+}
+
+.text_hv-cursor_pointer:hover {
+  cursor: pointer;
+}
+
+.text_hv-underline:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.text_style_placeholder {
+  color: #b5b5b5;
+}
+
+.text_style_placeholder-light {
+  color: #d8d8d8;
+}

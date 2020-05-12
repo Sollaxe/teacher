@@ -1,0 +1,25 @@
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon_size_s {
+  height: 30px;
+  width: 30px;
+  border-radius: 4px;
+}
+
+.icon_theme_darkgreen {
+  background-color: #365a55;
+}
+
+.icon_theme_darkblue {
+  background-color: #2b3863;
+}
+
+.icon_size_s .icon__icon-img {
+  height: 20px;
+  max-width: 28px;
+}
